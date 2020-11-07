@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <header>TIC TAC TOE!</header>
+    <main>
+      <section>
+        <br/>
+        <article>Player 1 is X and goes first!</article>
+      </section>
+      <section id='board'>
+        <br/>
+        <article>
+          <button class='square' id='top-left'>&nbsp;&nbsp;</button>&nbsp; | &nbsp;
+          <button class='square' id='top-mid'>&nbsp;&nbsp;</button>&nbsp; | &nbsp;
+          <button class='square' id='top-right'>&nbsp;&nbsp;</button></article>
+        <article>------|--------|------</article>
+        <article>
+          <button class='square' id='mid-left'>&nbsp;&nbsp;</button>&nbsp; | &nbsp;
+          <button class='square' id='mid-mid'>&nbsp;&nbsp;</button>&nbsp; | &nbsp;
+          <button class='square' id='mid-left'>&nbsp;&nbsp;</button>
+        </article>
+        <article>------|--------|------</article>
+        <article>
+          <button class='square' id='btm-left'>&nbsp;&nbsp;</button>&nbsp; | &nbsp;
+          <button class='square' id='btm-mid'>&nbsp;&nbsp;</button>&nbsp; | &nbsp;
+          <button class='square' id='btm-right'>&nbsp;&nbsp;</button></article>
+      </section>
+      <br/>
+      <button id='reset-btn'>Reset</button>
+      <br />
+      <h1 id='win-message'></h1>
+    </main>
+    <script src='./app.js'></script>
+  </body>
+</html>
